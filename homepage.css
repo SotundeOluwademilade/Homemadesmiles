@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    width: 100%;
+    height: 150vh;
+}
+/* main{
+    background-image: url(1636965797989_edited.jpg);
+} */
+
+header{
+    background-color: #FF00E4;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    /* color: #fff; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header>img{
+    
+}
+nav{
+    background-color: #ED50F1;
+    /* color: #fff; */
+    width: 100%;
+    /* height: 90vh; */
+    padding: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    /* flex-direction: column; */
+}
+nav>ul>a:hover{
+    color: azure;
+}
+a{
+    text-decoration: none;
+}
+article{
+    background-color: #FDB9FC;
+    width:fit-content;
+    height: fit-content;
+    /* scroll-behavior: auto; */
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+footer{
+    background-color: #FFEDED;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    /* position: fixed; */
+    /* position: fixed; */
+    justify-content: space-evenly;
+    /* position: fixed; */
+}
+button{
+    background-color: #396EB0;
+    color: #fff;
+    height: fit-content;
+    cursor: pointer;
+    font-size: 30px;
+}
+i{
+    font-size: 40px;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+.contact{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.whatsapp{
+    color: green;
+}
+.call{
+    color: #fff;
+}
+.telegram{
+    /* color: rgba(0, 67, 139,1); */
+    color: blue;
+}
+.facebook{
+    color: blue;
+}
+.instagram{
+    color: darkmagenta;
+}
+/* .twitter{
+    color: #fff;
+    background-color: blue;
+    height: 40px;
+} */
+video{
+    height: 250px;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+}
